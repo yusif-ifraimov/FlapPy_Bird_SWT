@@ -72,8 +72,7 @@ page
 
 
 ## 3. Clean Code Development
-During development were used  **Clean Code Development** principles
-and PEP Conventions.
+I used the principles from **Clean Code by Robert Martin** book and <a href = https://www.python.org/dev/peps/pep-0008/>**PEP Conventions** </a>.
 
 1. [Method Names and Instance Variables](https://pep8.org/#method-names-and-instance-variables):
     Use the function naming rules: lowercase with words separated by underscores as necessary to improve readability.
@@ -159,7 +158,7 @@ and PEP Conventions.
         self.__position = new_position
         self.__move_body()
     ```
-5. [Maximum Line Length](https://pep8.org/#maximum-line-length):
+. [Maximum Line Length](https://pep8.org/#maximum-line-length):
     Limit all lines to a maximum of 79 characters.
     ```python
     pygame.draw.rect(self.screen, Window.GREEN,
