@@ -206,26 +206,29 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
 [10 points CCD Cheatsheet](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/10%20point%20cheat%20sheet.pdf)
 
 ## 4. Build Management with PyGradle and Gradle
-The easiest way to use Build Management system with
-Python is [PyGradle](https://github.com/innobead/pygradle).
-It does the following things:
+It took me a lot of time in order to find out how to do a proper Build Managment in Python. 
+Eventually I found that the most convenient way is [PyGradle](https://github.com/innobead/pygradle).
+
+Here what it does:
+* it launches tests
 * installs environment, dependencies
-* launches tests
 * builds python wheel
 * generates docs (html and xml)
+
+There was a tricky part - Gradle does not work with PyCharm 
+(there will be a pop saying you need IntelliJ Ultimate)
+but it works with IntelliJ. There is a nice <a href="https://engineering.linkedin.com/blog/2016/08/introducing--py-gradle--an-open-source-python-plugin-for-gradle"> article </a> explaining how
+gradle works
 
 In current project:
 * [build.gradle](build.gradle) file has instructions to build.
 * [gradle_report.txt](gradle_report.txt) file is an output example.
 
-To have possibility to launch gradle even without IDE
-I have made a simple [bash script](launch_gradle.sh), that
-does this. 
+
 
 ## 5. Unit-Tests
 Although, the project has GUI, it was not covered by
-tests by understandable reasons. Only the snake model 
-was covered. 
+tests by understandable reasons.  
 [test_snake_model.py](tests/the_game/backend/test_snake_model.py)
 
 ## 6. Continuous Integration
