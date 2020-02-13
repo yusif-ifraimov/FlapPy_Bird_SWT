@@ -89,10 +89,20 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
    Why I like PyCharm is that it is really easy to monitor the number of characters in your code.
 
 1. [Method Names and Instance Variables](https://pep8.org/#method-names-and-instance-variables):
-    Use the function naming rules: lowercase with words separated by underscores as necessary to improve readability.
+    Use the function naming rules: lowercase with words separated by underscores is necessary to improve readability.
     ```python
-    def __get_pos_on_screen(self, snake_pos):
-        return snake_pos * self.scale_coef + self.scale_coef // 2
+    def __get_Random_Pipe():
+        # returns a randomly generated pipe
+        # y of gap between upper and lower pipe
+        gapY = random.randrange(0, int(BASEY * 0.6 - PIPEGAPSIZE))
+        gapY += int(BASEY * 0.2)
+        pipeHeight = IMAGES['pipe'][0].get_height()
+        pipeX = SCREENWIDTH + 10
+
+        return [
+            {'x': pipeX, 'y': gapY - pipeHeight},  # upper pipe
+            {'x': pipeX, 'y': gapY + PIPEGAPSIZE}, # lower pipe
+        ]
     ```
 
 2. [Intendation](https://www.python.org/dev/peps/pep-0008/#indentation)
@@ -192,17 +202,6 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
         self.__position = new_position
         self.__move_body()
     ```
-. [Maximum Line Length](https://pep8.org/#maximum-line-length):
-    Limit all lines to a maximum of 79 characters.
-    ```python
-    pygame.draw.rect(self.screen, Window.GREEN,
-                     (x_pos - self.scale_coef // 2,
-                      y_pos - self.scale_coef // 2,
-                      self.scale_coef, self.scale_coef))
-    ```
-   Interesting fact: Python does not have namespaces like C++ or
-   Java, so I use Constants logically attached to the class 
-   (`Window.GREEN`). PEP keeps silence in this case.
    
 [10 points CCD Cheatsheet](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/10%20point%20cheat%20sheet.pdf)
 
