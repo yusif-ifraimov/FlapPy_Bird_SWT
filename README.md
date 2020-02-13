@@ -234,7 +234,7 @@ I used such plugins as:
 Here are my most favorite shortcuts in PyCharm IDE:
 * Search everywhere (**Double ⇧**) 
 * Run Anything (**Double Ctrl**) 
-* Commit and Push (**Ctrl+Alt+K **)
+* Commit and Push (**Ctrl+Alt+K**)
 * Suggestions... (**Ctrl+⇧ Shift+A**)
 * SmartType Code Completion (**Ctrl+⇧ Shift+Space**)
 
