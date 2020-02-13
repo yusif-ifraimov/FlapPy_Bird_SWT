@@ -211,19 +211,20 @@ Eventually I found that the most convenient way is [PyGradle](https://github.com
 
 Here what it does:
 * it launches tests
-* installs environment, dependencies
-* builds python wheel
-* generates docs (html and xml)
+* installs environment, dependencies etc.
+* builds python <a href="https://pythonwheels.com/"> wheel </a>
+* generates docs (both html and xml) 
 
 There was a tricky part - Gradle does not work with PyCharm 
 (there will be a pop saying you need IntelliJ Ultimate)
 but it works with IntelliJ. There is a nice <a href="https://engineering.linkedin.com/blog/2016/08/introducing--py-gradle--an-open-source-python-plugin-for-gradle"> article </a> explaining how
-gradle works
+gradle works.
 
-In current project:
-* [build.gradle](build.gradle) file has instructions to build.
-* [gradle_report.txt](gradle_report.txt) file is an output example.
+You will find two files in my repository:
+* [https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/gradle_report.txt](gradle_report.txt) an output example of the report from my computer.
+* [https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/build.gradle](build.gradle) file with instruction fro build.
 
+After running build.gradle file it creates its own setup.py[ file. 
 
 
 ## 5. Unit-Tests
