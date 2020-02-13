@@ -127,7 +127,7 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
 3. [Class Names](https://pep8.org/#class-names):
     Class names should normally use the CapWords convention.
     ```python
-    class loadGame(object):
+    class User(object):
         ...
     class Bird:
         ...
