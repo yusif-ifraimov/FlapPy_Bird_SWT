@@ -222,7 +222,7 @@ gradle works.
 
 You will find two files in my repository:
 * [gradle_report.txt](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/gradle_report.txt) an output example of the report from my computer.
-* [build.gradle](bhttps://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/build.gradle) file with instruction fro build.
+* [build.gradle](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/build.gradle) file with instruction for build.
 
 After running build.gradle file it creates its own setup.py[ file. 
 
