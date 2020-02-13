@@ -47,7 +47,7 @@ Sonarcloud:
 To create UML diagrams I used a PlantUML plugin in PyCharm.
 ### 1.1. Use Case Diagram
 <p align="center">
-  <img src="docs/umls/snake_model.png">
+  <img src="https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/UML/Use_Case_Diagram.png">
 </p>
 
 ### 1.2. Class Diagram
