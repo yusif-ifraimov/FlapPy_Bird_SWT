@@ -295,13 +295,15 @@ In addition a player can enter series commands for instance
 
 * Final data structures
 
-    There is tuple in my class **Direction**.
+   A nice example of this would be tuples inside my  **Load Game**  class. 
+   However, they can be ordinal variables as well if we would want to allow the user manipulate game's settings </br> (trough DSL for example).
     ```python
-    class Direction:
-        up = (-1, 0)
-        dn = (1, 0)
-        lt = (0, -1)
-        rt = (0, 1)
+    class Load_Game:
+          FPS = (31)
+          SCREENWIDTH  = (288)
+          SCREENHEIGHT = (512)
+          PIPEGAPSIZE  = (100) # gap between upper and lower part of pipe
+          BASEY        = (SCREENHEIGHT * 0.79)
     ```
 * Side effect free functions
 
