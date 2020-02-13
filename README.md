@@ -114,14 +114,14 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
                   return True
         return False
     ```
-2. [Class Names](https://pep8.org/#class-names):
+3. [Class Names](https://pep8.org/#class-names):
     Class names should normally use the CapWords convention.
     ```python
-    class Playground(object):
+    class loadGame(object):
         ...
-    class Food:
+    class Bird:
         ...
-    class Direction:
+    class ShowWelcomeAnimation:
         ...
     ```
 3. Function rules: Small, Do one thing, Use descriptive names:
