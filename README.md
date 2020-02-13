@@ -204,7 +204,7 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
    Java, so I use Constants logically attached to the class 
    (`Window.GREEN`). PEP keeps silence in this case.
    
-[CCD Cheatsheet](https://user-images.githubusercontent.com/35653122/51113192-86f8d880-1801-11e9-90ad-88dd58854a18.png)
+[10 points CCD Cheatsheet](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/10%20point%20cheat%20sheet.pdf)
 
 ## 4. Build Management with PyGradle and Gradle
 The easiest way to use Build Management system with
