@@ -205,7 +205,7 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
    
 [10 points CCD Cheatsheet](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/10%20point%20cheat%20sheet.pdf)
 
-## 4. Build Management with PyGradle and Gradle
+## 4. Build Management (with PyGradle and Gradle)
 It took me a lot of time in order to find out how to do a proper Build Managment in Python. 
 Eventually I found that the most convenient way is [PyGradle](https://github.com/innobead/pygradle).
 
