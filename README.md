@@ -74,6 +74,20 @@ page
 ## 3. Clean Code Development
 I used the principles from **Clean Code by Robert Martin** book and <a href = https://www.python.org/dev/peps/pep-0008/>**PEP Conventions** </a>.
 
+1. [Maximum Line Length](https://pep8.org/#maximum-line-length):
+    Limit all lines to a maximum of 79 characters.
+    ```python
+    def getHitmask(image):
+    #returns a hitmask using an image's alpha.
+    mask = []
+    for x in xrange(image.get_width()):
+        mask.append([])
+        for y in xrange(image.get_height()):
+            mask[x].append(bool(image.get_at((x,y))[3]))
+    return mask
+    ```
+   Why I like PyCharm is that it is really easy to monitor the number of characters in your code.
+
 1. [Method Names and Instance Variables](https://pep8.org/#method-names-and-instance-variables):
     Use the function naming rules: lowercase with words separated by underscores as necessary to improve readability.
     ```python
