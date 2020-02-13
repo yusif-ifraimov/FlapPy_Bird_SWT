@@ -45,14 +45,14 @@ Sonarcloud:
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=sqale_index)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
 ## 1. UML
 To create UML diagrams I used a PlantUML plugin in PyCharm.
-### 1.1. Class Diagram
+### 1.1. Use Case Diagram
 <p align="center">
   <img src="docs/umls/snake_model.png">
 </p>
 
-### 1.2. Use Case diagram
+### 1.2. Class Diagram
 <p align="center">
-  <img src="docs/umls/use_case_diagram.png">
+  <img src="https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/UML/flappy_bird-Class_Diagram.png">
 </p>
 
 ### 1.3. Activity diagram
