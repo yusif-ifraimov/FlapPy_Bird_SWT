@@ -305,8 +305,8 @@ In addition a player can enter series commands for instance
     class Load_Game:
           FPS = (31)
           SCREEN_SIZE = SCREENWIDTH, SCREENHEIGHT = (288, 512)
-          PIPEGAPSIZE  = (100) # gap between upper and lower part of pipe
-          BASEY        = (SCREENHEIGHT * 0.79)
+          PIPEGAPSIZE = (100) # gap between upper and lower part of pipe
+          BASEY = (SCREENHEIGHT * 0.79)
     ```
 * Side effect free functions
 
