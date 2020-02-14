@@ -1,0 +1,28 @@
+
+# Disable sudo to speed up the build
+sudo: false
+
+language: python
+python:
+    - "3.6"
+    - "3.7"
+cache: pip
+# for codecoverage on codeclimate.com
+env:
+  global:
+    - CC_TEST_REPORTER_ID=2bf33a37d55967498550f43835cf2b4aec206dc17bcb07786b82ed6f9bf83746
+before_script:
+      - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+      - chmod +x ./cc-test-reporter
+      - ./cc-test-reporter before-build
+install:
+      - pip install pygame codecov
+
+script:
+  - coverage run utests.py
+
+# Push the results back to codecov
+after_success:
+  - codecov
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
