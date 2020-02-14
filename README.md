@@ -276,13 +276,13 @@ In addition a player can enter series commands for instance
     ```
 * Side effect free functions
 
-    An instance:
+    An goood example:
     ```python
-    def command_handler(command):
-        if command in turns():
-            dir = turns()[command]
-            snake.turn(dir)
-        elif command == 'q':
+    def get_input(input):
+        if input in moves():
+            dir = moves()[input]
+            bird.move(dir)
+        elif input == 'q':
             return False
     return True
     ```
