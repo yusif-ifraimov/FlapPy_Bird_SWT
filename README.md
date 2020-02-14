@@ -332,7 +332,7 @@ In addition a player can enter series commands for instance
     assert quad(quad(1, 0, 0), quad(0, 2, 0), 3)(0) == 3
     ```
 
-* Use Closuresuse/ Anonymous functions
+* Use Closures / Anonymous functions
     
     ```python
     def inputs():
