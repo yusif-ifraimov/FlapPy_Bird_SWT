@@ -29,7 +29,7 @@ CodeCov:
 CodeClimate:
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/b1ee1d632109fd5ab639/test_coverage)](https://codeclimate.com/github/ElijahOzhmegov/Smake-Snake-AI-/test_coverage)
-<a href="https://codeclimate.com/github/ElijahOzhmegov/Smake-Snake-AI-/maintainability"><img src="https://api.codeclimate.com/v1/badges/b1ee1d632109fd5ab639/maintainability" /></a>
+<a href="https://codeclimate.com/github/yusif-ifraimo/FlapPy_Bird_SWT/maintainability"><img src="https://api.codeclimate.com/v1/badges/983281f5f5ee15bfe5cc/maintainability" /></a>
 
 Sonarcloud:
 
