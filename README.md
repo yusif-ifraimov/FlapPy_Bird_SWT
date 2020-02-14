@@ -87,7 +87,7 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
     ```
    Why I like PyCharm is that it is really easy to monitor the number of characters in your code.
 
-1. [Method Names and Instance Variables](https://pep8.org/#method-names-and-instance-variables):
+2. [Method Names and Instance Variables](https://pep8.org/#method-names-and-instance-variables):
     Use the function naming rules: lowercase with words separated by underscores is necessary to improve readability.
     ```python
     def __get_Random_Pipe():
@@ -104,7 +104,7 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
         ]
     ```
 
-2. [Intendation](https://www.python.org/dev/peps/pep-0008/#indentation)
+3. [Intendation](https://www.python.org/dev/peps/pep-0008/#indentation)
     Use 4 spaces per indentation level.
     ```python
     def pixelCollision(rect1, rect2, hitmask1, hitmask2):
@@ -123,7 +123,7 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
                   return True
         return False
     ```
-3. [Class Names](https://pep8.org/#class-names):
+4. [Class Names](https://pep8.org/#class-names):
     Class names should normally use the CapWords convention.
     ```python
     class User(object):
@@ -133,74 +133,41 @@ I used the principles from **Clean Code by Robert Martin** book and <a href = ht
     class ShowWelcomeAnimation:
         ...
     ```
-3. Function rules: Small, Do one thing, Use descriptive names:
+5. Function rules: Small, Do one thing, Use descriptive names:
     ```python
-    def get_body(self):
-        return self.__body
+    def getBackgroundID(self):
+        """
+        Returns the id's of the background images
+        """
+        return [self.__background_default, *self.__background]
    
-    def get_body_list(self):
-        return [segment.get_pos() for segment in self.get_body()]
+    def stop(self):
+        """
+        Function to stop background animation
+        """
+        return self.__stop = True
+    
+    def birdIsAlive(self):
+        """
+        Checks if the bird is alive
+        """
+        return self.__isAlive
 
-    def get_speed(self):
-        return self.__speed.dir
+    def getTag(self):
+        """
+        Returns the bird tag
+        """
+        return self.__tag
 
-    def get_position(self):
-        return self.__position.pos
-
-    def get_allowed_space(self):
-        return self.__pg.rows, self.__pg.rows
-
-    def get_seen_food_pos(self):
-        return self.__food.get_pos()
+    def kill(self):
+        return self.__isAlive = False    
+        
+    def get_pos(self):
+        return self.__get_pos()
     ```
-4. Source code structure: Similar function should be close
-    ```python
-    def __is_injuring_itself(self, new_position):
-        segments = [segment.pos for segment in self.__body]
-        if new_position.get_pos() in segments:
-            return True
-        return False
 
-    def __is_colliding_wall(self, new_position):
-        if new_position.get_pos() in self.__borders:
-            return True
-        return False
-
-    def get_body(self):
-        return self.__body
-
-    def get_body_list(self):
-        return [segment.get_pos() for segment in self.get_body()]
-
-    def get_speed(self):
-        return self.__speed.dir
-
-    def get_position(self):
-        return self.__position.pos
-
-    def get_allowed_space(self):
-        return self.__pg.rows, self.__pg.rows
-
-    def get_seen_food_pos(self):
-        return self.__food.get_pos()
-
-    def turn(self, new_dir):
-        new_speed = self.__speed + Direction(direc=new_dir)
-        if any(new_speed) != 0:
-            self.__speed = Direction(direc=new_dir)
-
-    def move(self):
-        new_position = self.__position + Position(self.__speed.get_dir())
-
-        if self.__is_injuring_itself(new_position):
-            return Snake.self_collision
-
-        if self.__is_colliding_wall(new_position):
-            return Snake.wall_collision
-
-        self.__position = new_position
-        self.__move_body()
-    ```
+     
+       
    
 [10 points CCD Cheatsheet](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/10%20point%20cheat%20sheet.pdf)
 
