@@ -19,7 +19,7 @@ Travis-CI:
 
 CodeCov:
 
-[![codecov](https://codecov.io/gh/ElijahOzhmegov/Smake-Snake-AI-/branch/master/graph/badge.svg)](https://codecov.io/gh/ElijahOzhmegov/Smake-Snake-AI-)
+[![codecov](https://codecov.io/gh/yusif-ifraimo/FlapPy_Bird_SWT/branch/master/graph/badge.svg)](https://codecov.io/gh/yusif-ifraimo/FlapPy_Bird_SWT)
 
 AppVeyor:
 
