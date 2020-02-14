@@ -35,15 +35,15 @@ Sonarcloud:
 
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=yusif-ifraimo_FlapPy_Bird_SWT)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT)
 
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=security_rating)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=yusif-ifraimo_FlapPy_Bird_SWT&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=yusif-ifraimo_FlapPy_Bird_SWT&metric=security_rating)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=yusif-ifraimo_FlapPy_Bird_SWT&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=yusif-ifraimo_FlapPy_Bird_SWT&metric=code_smells)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT) 
 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=yusif-ifraimo_FlapPy_Bird_SWT&metric=bugs)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=yusif-ifraimo_FlapPy_Bird_SWT&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=yusif-ifraimo_FlapPy_Bird_SWT&metric=sqale_index)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT)
 
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=bugs)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=sqale_index)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
 ## 1. UML
 To create UML diagrams I used a PlantUML plugin in PyCharm.
 ### 1.1. Use Case Diagram
