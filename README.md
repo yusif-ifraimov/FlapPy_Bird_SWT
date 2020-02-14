@@ -65,10 +65,9 @@ To create UML diagrams I used a PlantUML plugin in PyCharm.
 Besides the badges at the beginning of the page,
 you can find additional information about used metrics
 on the following pages:
-* [sonarcloud.io](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-) 
-page 
-* [codeclimate](https://codeclimate.com/github/ElijahOzhmegov/Smake-Snake-AI-) page
-* [codecov.io](https://codecov.io/gh/ElijahOzhmegov/Smake-Snake-AI-) page
+* [sonarcloud.io](https://sonarcloud.io/dashboard?id=yusif-ifraimov_FlapPy_Bird_SWT)  
+* [codeclimate](https://codeclimate.com/github/yusif-ifraimov/FlapPy_Bird_SWT)
+* [codecov.io](https://codecov.io/gh/ElijahOzhmegov/Smake-Snake-AI-) 
 
 
 ## 3. Clean Code Development
