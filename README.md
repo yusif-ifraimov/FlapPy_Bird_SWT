@@ -11,6 +11,7 @@ As for me, the main idea around all this pet project was to get to know the conc
 
 ----
 
+**Overview of my badges**
 
 
 AppVeyor:
@@ -32,7 +33,7 @@ CodeClimate:
 
 Sonarcloud:
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=alert_status)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=yusif-ifraimo_FlapPy_Bird_SWT)](https://sonarcloud.io/dashboard?id=yusif-ifraimo_FlapPy_Bird_SWT)
 
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=security_rating)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=ElijahOzhmegov_Smake-Snake-AI-&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=ElijahOzhmegov_Smake-Snake-AI-)
