@@ -215,7 +215,7 @@ Here what it does:
 * generates docs (both html and xml) 
 
 There was a tricky part - Gradle does not work with PyCharm 
-(there will be a pop saying you need IntelliJ Ultimate)
+(there will be a pop up saying you need IntelliJ Ultimate)
 but it works with IntelliJ. There is a nice <a href="https://engineering.linkedin.com/blog/2016/08/introducing--py-gradle--an-open-source-python-plugin-for-gradle"> article </a> explaining how
 gradle works.
 
