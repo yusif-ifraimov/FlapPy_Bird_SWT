@@ -332,16 +332,18 @@ In addition a player can enter series commands for instance
     assert quad(quad(1, 0, 0), quad(0, 2, 0), 3)(0) == 3
     ```
 
-* Use Closures
+* Use Closuresuse/ Anonymous functions
     
     ```python
-    def turns():
-        TURNS = {'h': "lt", 'j': "dn", 'k': "up", 'l': "rt"}
+    def inputs():
+        INPUTS = {'w': "up", 's': "down", 'x': "quit", 'p': "pause"}
 
-        def nested_function():
-            return TURNS
+        def function_inside():
+            return INPUTS
 
-        return nested_function()
+        return function_inside()
+   
+   inputs()
 
     ```
 
