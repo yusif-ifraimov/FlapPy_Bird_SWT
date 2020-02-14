@@ -245,7 +245,7 @@ Domain Specific Language was created to control the snake. You can see
 usage example below.
 
 <p align="center">
-  <img src="https://thumbs.gfycat.com/PolishedFrigidJumpingbean-size_restricted.gif">
+  <img src="https://thumbs.gfycat.com/">
 </p>
 
 Gif looks worse than an original video, so below you can find the original video
