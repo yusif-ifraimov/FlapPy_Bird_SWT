@@ -15,7 +15,7 @@ As for me, the main idea around all this pet project was to get to know the conc
 
 Travis-CI:
 
-[![Travis build status](https://travis-ci.com/yusif-ifraimo/FlapPy_Bird_SWT.svg?branch=master]()
+[![Travis build status](https://travis-ci.com/yusif-ifraimo/FlapPy_Bird_SWT.svg?branch=master)()
 
 CodeCov:
 
