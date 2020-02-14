@@ -13,18 +13,17 @@ As for me, the main idea around all this pet project was to get to know the conc
 
 **Overview of my badges**
 
-
-AppVeyor:
-
-[![Build status](https://ci.appveyor.com/api/projects/status/k9km8fyluwwbox57?svg=true)](https://ci.appveyor.com/project/yusif-ifraimov/flappy-bird-swt)
-
 Travis-CI:
 
-[![Travis build status](https://travis-ci.org/ElijahOzhmegov/Smake-Snake-AI-.svg?branch=master)]()
+[![Travis build status](https://travis-ci.com/yusif-ifraimo/FlapPy_Bird_SWT.svg?branch=master]()
 
 CodeCov:
 
 [![codecov](https://codecov.io/gh/ElijahOzhmegov/Smake-Snake-AI-/branch/master/graph/badge.svg)](https://codecov.io/gh/ElijahOzhmegov/Smake-Snake-AI-)
+
+AppVeyor:
+
+[![Build status](https://ci.appveyor.com/api/projects/status/k9km8fyluwwbox57?svg=true)](https://ci.appveyor.com/project/yusif-ifraimov/flappy-bird-swt)
 
 CodeClimate:
 
