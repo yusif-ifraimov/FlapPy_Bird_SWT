@@ -244,22 +244,20 @@ Here are my most favorite shortcuts in PyCharm IDE:
 Domain Specific Language was created to control the snake. You can see
 usage example below.
 
+**Running Game in Furry Off Mode trough DSL**
 <p align="center">
-  <img src="https://thumbs.gfycat.com/">
+  <img src="https://gfycat.com/glitteringlikelydevilfish">
 </p>
 
-Gif looks worse than an original video, so below you can find the original video
-and even an old video (one of the first attempts).
+Full version of this gif in FULL HD format is available [here](https://youtu.be/S-9TUfrJY98) 
 
-Full version of the video is available [here]() 
-and [here]().
+**Running Game in Furry On Mode trough DSL**
+<p align="center">
+  <img src="https://gfycat.com/glitteringlikelydevilfish">
+</p>
 
-As you can see there is used vim navigation to control the snake
-, because I am a fan of vim. Also, there was provided opportunity to
-enter commands in lots of different ways. For example, instead of
-to push `ENTER` 11 times to reach the food a player can just enter `11k`.
-In addition a player can enter series commands for instance 
-`5h k l k 23h`.
+Full version of this gif in FULL HD format is available [here](https://youtu.be/f7Xiq03kDbU)
+
 
 ## 9. Functional Programming
 
