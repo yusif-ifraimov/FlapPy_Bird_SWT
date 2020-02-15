@@ -236,8 +236,7 @@ Here are my most favorite shortcuts in PyCharm IDE:
 * SmartType Code Completion (**Ctrl+⇧ Shift+Space**)
 
 ## 8. DSL
-Domain Specific Language was created to control the snake. You can see
-usage example below.
+This part was quite tricky. Basically because of the PyGame. So the main problem with the PyGame is that it operates with seperate GUI. As in our case a small rectangular window. Basically, it is nearly [impossible](https://stackoverflow.com/questions/6044316/how-can-i-insert-a-console-in-to-a-pygame-window) to implement console within the GUI in order to type in commands. Especially, with such a dynamic game as Flappy Bird where you must use PyGame's pygame.event.get() feature. All this because ["Pygame is designed for making (graphical) games, so it only captures key presses when there is a window displayed."](https://stackoverflow.com/questions/9815995/read-console-input-using-pygame)
 
 **Running Game in Furry Off Mode trough DSL**
 <p align="center">
