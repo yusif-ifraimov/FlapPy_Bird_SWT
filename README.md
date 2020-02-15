@@ -248,15 +248,13 @@ Below you will find demos.
 
 **Running Game in Furry Off Mode trough DSL**
 <p align="center">
-  <div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/GlitteringLikelyDevilfish' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+  <img src="https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/gifs/Python_DSL_Example_Furry_Mode_Off.gif">
 </p>
+
 
 Full version of this gif in FULL HD format is available [here](https://youtu.be/S-9TUfrJY98) 
 
 **Running Game in Furry On Mode trough DSL**
-<p align="center">
-  <img src="https://gfycat.com/glitteringlikelydevilfish">
-</p>
 
 Full version of this gif in FULL HD format is available [here](https://youtu.be/f7Xiq03kDbU)
 
