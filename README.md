@@ -314,7 +314,7 @@ Full version of this gif in FULL HD format is available [here](https://youtu.be/
     def multi     (value): return int.__mul__, value
  
     assert zero(plus(zero())) == 0
-    assert ten(multy(five())) == 50
+    assert ten(multi(five())) == 50
     assert seven(minus(two())) == 5
     assert nine(divided(three())) == 3
      ```
