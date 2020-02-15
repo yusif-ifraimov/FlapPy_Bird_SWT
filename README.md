@@ -194,8 +194,7 @@ After running build.gradle file it creates its own setup.py file.
 
 
 ## 5. Unit-Tests
-Although, the project has GUI, it was not covered by
-tests by understandable reasons.  
+There is a GUI in my project but I thought that it would be unreasonable to test it. I just tested all the modules in my code responsible for sound production and especially bird movement, score counting etc.   
 [test_snake_model.py](tests/the_game/backend/test_snake_model.py)
 
 ## 6. Continuous Integration
