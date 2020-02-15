@@ -208,7 +208,7 @@ values of the badges. So that all of them were green or at
 least yellow for such badges as test coverage.
 
 My Pipeline: 
-![pipeline](docs/pics/Pipeline.png)
+![pipeline](docs/pics/pipeline.png)
 
 First of all, Travis-CI is responsible for Linux and 
 AppVeyer for Windows.
