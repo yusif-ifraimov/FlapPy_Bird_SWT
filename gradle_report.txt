@@ -57,11 +57,12 @@ collected 11 items
 Name                                                                                        Stmts   Miss  Cover   Missing
 -------------------------------------------------------------------------------------------------------------------------
 /Users/yusif_ifraimov/PycharmProjects/FlapPy_Bird/src/__init__.py                           0      0   100%
-/Users/yusif_ifraimov/PycharmProjects/FlapPy_Bird/src/flappy.py                    0      0   100%
-/Users/yusif_ifraimov/PycharmProjects/FlapPy_Bird/src/the_game/setup.py         		    0      0   100%
-/Users/yusif_ifraimov/PycharmProjects/FlapPy_Bird/src/the_game/main.py         							0      0   100%
+/Users/yusif_ifraimov/PycharmProjects/FlapPy_Bird/src/class/Bird.py                        84      0   100%
+/Users/yusif_ifraimov/PycharmProjects/FlapPy_Bird/setup.py         		                      2      0   100%
+/Users/yusif_ifraimov/PycharmProjects/FlapPy_Bird/main.py         							           51      0   100%
+/Users/yusif_ifraimov/PycharmProjects/FlapPy_Bird/flappy.py                                68      0    74%
 -------------------------------------------------------------------------------------------------------------------------
-TOTAL                                                                                         205     91    56%
+TOTAL                                                                                      205     0    56%
 Coverage HTML written to dir htmlcov
 Coverage XML written to file coverage.xml
 
