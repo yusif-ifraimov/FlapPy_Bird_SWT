@@ -196,7 +196,7 @@ After running build.gradle file it creates its own setup.py file.
 ## 5. Unit-Tests
 There is a GUI in my project but I thought that it would be unreasonable to test it. I just tested all the modules in my code responsible for sound production and especially bird movement, score counting etc. 
 
-Here are the tests: [unit_test.py] (https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/unit_test.py) links to - 
+Here are the tests: [unit_test.py](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/unit_test.py) links to - 
 [test_this_nasty_bird.py](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/test/test_this_nasty_bird.py)
 
 ## 6. Continuous Integration
