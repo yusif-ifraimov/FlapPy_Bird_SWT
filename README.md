@@ -287,8 +287,7 @@ Full version of this gif in FULL HD format is available [here](https://youtu.be/
 
  * The use of higher order functions
 
-    Below you can see a few artifical made examples: arg in fuction number is a tuple 
-    that consist of a callback and int variable respectively.
+    I have made a few examples below. 
      ```python
     def number(the_number, arg):
         return arg[0](the_number, arg[1]) if arg else the_number
