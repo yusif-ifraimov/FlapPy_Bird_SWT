@@ -216,8 +216,7 @@ to codecov.io and CodeClimate.com.
 You can file details in **travis.yml** file
 and in **appveyor.yml**, **tox.ini** file for Travis and AppVeyor respectively.
 
-Gradle report usually looks like on the picture below.
-![Gradle report](docs/pics/gradle_report.png)
+You can find Graddle report in **gradle_report.txt** file.
 
 ## 7. IDE 
 
