@@ -293,47 +293,48 @@ Full version of this gif in FULL HD format is available [here](https://youtu.be/
 
     I have made a few examples below. 
      ```python
-    def number(the_number, arg):
-        return arg[0](the_number, arg[1]) if arg else the_number
+    def digit(a_digit, val):
+        return val[0](a_digit, val[1]) if val else a_digit
 
-    def zero (arg = None): return number(0, arg)
-    def one  (arg = None): return number(1, arg)
-    def two  (arg = None): return number(2, arg)
-    def three(arg = None): return number(3, arg)
-    def four (arg = None): return number(4, arg)
-    def five (arg = None): return number(5, arg)
-    def six  (arg = None): return number(6, arg)
-    def seven(arg = None): return number(7, arg)
-    def eight(arg = None): return number(8, arg)
-    def nine (arg = None): return number(9, arg)
+    def zero (val = None): return number(0, val)
+    def one  (val = None): return number(1, val)
+    def two  (val = None): return number(2, val)
+    def three(val = None): return number(3, val)
+    def four (val = None): return number(4, val)
+    def five (val = None): return number(5, val)
+    def six  (val = None): return number(6, val)
+    def seven(val = None): return number(7, val)
+    def eight(val = None): return number(8, val)
+    def nine (val = None): return number(9, val)
+    def ten (val = None): return number(10,val)
 
-
+    def divided   (value): return int.__floordiv__, value
     def plus      (value): return int.__add__, value
     def minus     (value): return int.__sub__, value
-    def times     (value): return int.__mul__, value
-    def divided_by(value): return int.__floordiv__, value
-
-    assert seven(times(five())) == 35
-    assert four(plus(nine())) == 13
-    assert eight(minus(three())) == 5
-    assert six(divided_by(two())) == 3
+    def multi     (value): return int.__mul__, value
+ 
+    assert zero(plus(zero())) == 0
+    assert ten(multy(five())) == 50
+    assert seven(minus(two())) == 5
+    assert nine(divided(three())) == 3
      ```
 
 * Functions as parameters and return values/anonymous functions
 
-    When I was at school I often had to solve equastions like this:
-    $ (a_1*x^2 + a_2^x + a_3) * x^2 + (a_4*x + a_5) * x + a_6 $
+    Let's say in the future I would like to create a "TOP 3" chart for my project. Let's say I want to assign first, second, and third places by scores. 
     ```python
-    def quad(a, b, c):
-        return lambda x: (a(x) if callable(a) else a)*(x ** 2) + \
-                         (b(x) if callable(b) else b) * x + \
-                         (a(x) if callable(c) else c)
+    def scores(s1, s2, s3):
+        lst = [s1, s2, s3]
+        return lst.sort(key=lambda x:x[1]) #we create anonymous functions in python with 'lambda' statement
+    
+    scores()
 
-    assert quad(0, 0, 3)(0) == 3
-    assert quad(quad(1, 0, 0), quad(0, 2, 0), 3)(0) == 3
+    assert scores(200, 300, 100) == [100,200,300]
+    assert scores(B, C, A) == [A, B, C]
     ```
 
 * Use Closures / Anonymous functions
+One of the earliest parts of my DSL Code:
     
     ```python
     def inputs():
