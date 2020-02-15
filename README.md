@@ -255,7 +255,9 @@ Below you will find demos.
 Full version of this gif in FULL HD format is available [here](https://youtu.be/S-9TUfrJY98) 
 
 **Running Game in Furry On Mode trough DSL**
-
+<p align="center">
+  <img src="https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/docs/gifs/Python_DSL_Example_Furry_Mode_On.gif">
+</p>
 Full version of this gif in FULL HD format is available [here](https://youtu.be/f7Xiq03kDbU)
 
 
