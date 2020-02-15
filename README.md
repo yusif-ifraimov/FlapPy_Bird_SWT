@@ -4,7 +4,7 @@ The main purpose of this project is to demonstrate that you can build nice games
 
 Initially, my idea was to use AI to play this game but later on I decided that this will make a project too complicated so I decided to keep things simple
 
-As for me, the main idea around all this pet project was to get to know the concepts of Software Engineering.
+As for me, the main idea around all this pet project was to get to know the concepts and techniques of Software Engineering.
 
 [//]:#
 ![video](https://media3.giphy.com/media/euuaA2cwLEUuI/giphy.gif?cid=790b76111f0c39a1c15a764ac504e97512b1d16982def664&rid=giphy.gif)
@@ -200,9 +200,8 @@ Here are the tests: [unit_test.py](https://github.com/yusif-ifraimov/FlapPy_Bird
 [test_this_nasty_bird.py](https://github.com/yusif-ifraimov/FlapPy_Bird_SWT/blob/master/test/test_this_nasty_bird.py)
 
 ## 6. Continuous Integration
-Unfortunately my project does not have delivery part at least 
-standard one like PyPI or some Python-based website. 
-So Let's assume I  deliver my project just on github 
+Basically, there are standard delivery parts like [PyPI](https://pypi.org/) or usually Python-based website (e.g built on [Django](https://www.djangoproject.com/)). 
+Unfortunately, my project has not neither of above mentioned delivery parts for understandable reasons. Thats why let's suppose that I  deliver my project just on github 
 with all green/yellow 
 values of the badges. So that all of them were green or at 
 least yellow for such badges as test coverage.
@@ -210,16 +209,12 @@ least yellow for such badges as test coverage.
 My Pipeline: 
 ![pipeline](docs/pics/pipeline.png)
 
-First of all, Travis-CI is responsible for Linux and 
-AppVeyer for Windows.
+As you can see from this scheme [Travis-CI](https://travis-ci.com/yusif-ifraimo/FlapPy_Bird_SWT) is responsible for delivery on Linux and Appveyor for delivery on Windows
 
-Travis-CI service after the unit tests sends 
-reports to CodeClimate.com and codecov.io.
-Details can be found in **travis.yml** file for 
-Travis and in **appveyor.yml**, **tox.ini** for AppVeyor.
-
-* [Travis-CI report](https://travis-ci.org/ElijahOzhmegov/Smake-Snake-AI-)
-* [AppVeyor report](https://ci.appveyor.com/project/ElijahOzhmegov/smake-snake-ai)
+Travis-CI service sends reports after the unit tests 
+to codecov.io and CodeClimate.com.
+You can file details in **travis.yml** file
+and in **appveyor.yml**, **tox.ini** file for Travis and AppVeyor respectively.
 
 Gradle report usually looks like on the picture below.
 ![Gradle report](docs/pics/gradle_report.png)
