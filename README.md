@@ -236,7 +236,15 @@ Here are my most favorite shortcuts in PyCharm IDE:
 * SmartType Code Completion (**Ctrl+⇧ Shift+Space**)
 
 ## 8. DSL
-This part was quite tricky. Basically because of the PyGame. So the main problem with the PyGame is that it operates with seperate GUI. As in our case a small rectangular window. Basically, it is nearly [impossible](https://stackoverflow.com/questions/6044316/how-can-i-insert-a-console-in-to-a-pygame-window) to implement console within the GUI in order to type in commands. Especially, with such a dynamic game as Flappy Bird where you must use PyGame's pygame.event.get() feature. All this because ["Pygame is designed for making (graphical) games, so it only captures key presses when there is a window displayed."](https://stackoverflow.com/questions/9815995/read-console-input-using-pygame)
+This part was quite tricky. Basically because of the PyGame. So the main problem with the PyGame is that it operates with seperate GUI. As in our case a small rectangular window. Basically, it is nearly [impossible](https://stackoverflow.com/questions/6044316/how-can-i-insert-a-console-in-to-a-pygame-window) to implement console within the GUI in order to type in our DSL commands. Especially, with such dynamic game as Flappy Bird where you must use PyGame's pygame.event.get() feature (and type in very fast). All this because ["Pygame is designed for making (graphical) games, so it only captures key presses when there is a window displayed."](https://stackoverflow.com/questions/9815995/read-console-input-using-pygame) <br>
+
+**However**, there is one wonderfull thing. All games have a DSL in them since in order to 'speak' with the game you use specific key inputs and combinations. As in our case: (**q**), (**space**),(**space**+**1**), (**⇧**),(**esc**) etc. So that is a DSL Snippet!
+
+But I thought that it would still be nice to include some sort of console DSL, so the user can put in commands there. As I said it is impossible to control the gamplay from the console, **but** it is possible to use Domain Specific Language for some of our game's settings! 
+
+So I built a small DSL Snippet which allow user to set the mode of the game and then start to play the game. 
+
+Below you will find demos.
 
 **Running Game in Furry Off Mode trough DSL**
 <p align="center">
