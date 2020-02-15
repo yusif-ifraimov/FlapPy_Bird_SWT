@@ -1,6 +1,6 @@
 import unittest
 
-from tests.the_game.backend import test_snake_model
+from test import test_this_nasty_bird
 
 if __name__ == '__main__':
-    unittest.main(module=test_snake_model)
+    unittest.main(module=test_this_nasty_bird)
